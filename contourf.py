@@ -1,7 +1,7 @@
 # Importación de módulos
 import numpy as np
 import matplotlib.pyplot as plt
-# Ponele que hago cambios
+
 
 # Adquisición de datos
 cero = np.loadtxt('0°.txt', skiprows=2)
