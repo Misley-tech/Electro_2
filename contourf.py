@@ -3,6 +3,8 @@ import numpy as np
 import matplotlib.pyplot as plt
 # Ponele que hago cambios
 
+#A ver que onda con esto
+
 # Adquisición de datos
 cero = np.loadtxt('0°.txt', skiprows=2)
 cero = cero[:, 1]
