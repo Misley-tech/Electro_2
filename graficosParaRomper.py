@@ -5,6 +5,7 @@ import numpy as np
 
 # y si hago asi que tal?
 # probando otra ve
+# ahora debería andar
 
 # Transformo datos a números flotantes
 
