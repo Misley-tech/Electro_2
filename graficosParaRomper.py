@@ -3,6 +3,8 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
 
+# y si hago asi que tal?
+# probando otra ve
 
 # Transformo datos a números flotantes
 
