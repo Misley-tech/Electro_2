@@ -3,9 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
 
-# y si hago asi que tal?
-# probando otra ve
-# ahora debería andar
+# cambios de emma
 
 # Transformo datos a números flotantes
 
