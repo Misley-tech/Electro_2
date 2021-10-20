@@ -5,6 +5,8 @@ import numpy as np
 
 # cambios de emma
 
+# "Usted tiene que arrepentirse de lo que dijo..."
+
 # Transformo datos a números flotantes
 
 def series_to_float(array):
