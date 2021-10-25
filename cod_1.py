@@ -24,3 +24,6 @@ for i in range(len(array_conteo)):
         impulso.append(archivo)
         continue
 print(impulso)
+
+#Esta línea pasa de pandas.core.frame.DataFrame a numpy.ndarray
+pd.DataFrame(impulso[2]).to_numpy()
