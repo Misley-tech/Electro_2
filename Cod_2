@@ -1,0 +1,15 @@
+import numpy as np
+import soundfile as sf
+
+#importo la senal de calibracion y de ruido de fondo
+cal, fs = sf.read('calibracion.wav')
+ruido, fs = sf.read('ruido_fondo.wav')
+
+
+#1) Calculo el valor RMS de la senal de calibracion
+# yo se que esta senal es: 
+#senal sinusoidal de 1 kHz a 1 Pa (94 dBSPL) 
+
+rms = np.sqrt(sum(calibracion**2)/len(calibracion))
+calibracion = calibracion/rms
+print(calibracion)
